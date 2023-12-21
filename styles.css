@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.header{
+    display:flex;
+    justify-content:center;
+    align-items:center; 
+    flex-direction:column;
+    height:80vmin;
+    background-color:rgba(0, 255, 255, 0.49)
+}
+
+.touristAttractions{
+    display:flex;
+    padding-top:15vmin;
+    padding-bottom:15vmin;
+    background-color:lightcoral;
+}
+
+.img1{
+    max-width:60%;
+    max-height:50vmin;
+    margin-right:6vmin;
+    margin-left:2vmin;
+    border:4px solid black;
+}
+
+.words1{
+    margin-top:5%;
+}
+
+.map{
+    display:flex;
+    flex-direction: column;
+    justify-content:center; 
+    background-color:rgba(0, 255, 255, 0.49);
+    padding-bottom:10vmin;
+    padding-top:10vmin;
+
+}
+
+.mapPic{
+    max-width:50%;
+    max-height:60vmin;
+    margin-left:25%;
+    border:4px solid black;
+}
+
+.rights{
+    padding-top:10vmin;
+    padding-bottom:10vmin;
+    display:flex;
+    justify-content:space-evenly;
+    background-color: lightcoral;
+}
+
+.pic2{
+    max-width:50%;
+    max-height:40vmin; 
+    border:4px solid black;
+}
+
+.learnMore{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:10vmin;
+    padding-bottom:10vmin;
+    background-color:rgba(0, 255, 255, 0.49);
+}
+
+.buttons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button{
+    margin-right:6vmin;
+    font-size:4vmin;
+    padding:10vmin;
+    background-color:lightcoral;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;  
+  background-color: coral;
+  font-size: 3vmin;
+}
